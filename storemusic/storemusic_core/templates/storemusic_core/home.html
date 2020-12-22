@@ -1,0 +1,25 @@
+{% extends 'storemusic_core/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+<div id="contenido" class="contenido">
+    <div class="slider">
+        <div class="guitarra">
+            <img src="{% static 'storemusic_core/img/guitarbody.jpg' %}" alt="guitarbody" class="guitarbody">
+        </div>
+        <div class="bajo">
+            <img src="{% static 'storemusic_core/img/homebajo.jpg' %}" alt="homebajo" class="homebajo">
+        </div>
+        <div class="teclado">
+            <img src="{% static 'storemusic_core/img/hometeclado.jpg' %}" alt="hometeclado" class="hometeclado">
+        </div>
+        <div class="bateria">
+            <img src="{% static 'storemusic_core/img/homebateria.jpg' %}" alt="homebateria" class="homebateria">
+        </div>
+        <div class="acordeon">
+            <img src="{% static 'storemusic_core/img/homeacordeon.jpg' %}" alt="homeacordeon" class="homeacordeon">
+        </div>
+    </div>
+</div>
+{% endblock %}

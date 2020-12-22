@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoreMusic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    {% load static %}
+    {% block css %}
+    
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'storemusic_core/css/estilos.css'  %}">
+</head>
+<body>
+    <header id="header">
+        <div class="contenedor">
+            <div class="contenedor_logo">
+                <img src="{% static 'storemusic_core/img/menuiconwhite.png' %}" alt="menu" class="menu" id="menu">
+                <img src="{% static 'storemusic_core/img/logoicon.png' %}" alt="iconlogo" class="logo">
+                <div class="contenedor_icon">
+                    <nav>
+                        <a href="#" class="iconcompras"> 
+                            <img src="{% static 'storemusic_core/img/comprasicon.png' %}" alt="compras" class="comprasicon">
+                        </a>
+                        <a href="{% url 'login' %}" class="iconlogin">
+                            <img src="{% static 'storemusic_core/img/login.png' %}" alt="login" class="loginicon">
+                        </a>
+                        <a href="#" class="icongps">
+                            <img src="{% static 'storemusic_core/img/gps.png' %}" alt="gps" class="gpsicon">
+                        </a>
+                        
+                    </nav>
+                    
+                </div>
+            </div>
+            <div class="contenedor_icon-480" id="icon">
+                <nav>
+                    <a href="#" class="iconcompras"> 
+                        <img src="{% static 'storemusic_core/img/comprasicon.png' %}" alt="compras" class="comprasicon">
+                    </a>
+                    <a href="{% url 'login' %}" class="iconlogin">
+                        <img src="{% static 'storemusic_core/img/login.png' %}" alt="login" class="loginicon">
+                    </a>
+                    <a href="#" class="icongps">
+                        <img src="{% static 'storemusic_core/img/gps.png' %}" alt="gps" class="gpsicon">
+                    </a>
+                    
+                </nav>
+                
+            </div>
+            <div class="div_contenedor_logo">
+                    <nav class="contenedor_logo_nav" id="nav_menu_header">
+                        <ul>
+                            <li>
+                                <a href="{% url 'categories' %}">CATEGORIA</a>
+                            </li>
+                            <li>
+                                <a href="#">MARCA</a>
+                            </li>
+                            <li>                            
+                                <a href="#">READY TO PICK</a>
+                            </li>
+                            <li>
+                                <a href="#">LOCAL DROP</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="contenedor_icon">
+                <nav>
+                    <a href="#" class="iconcompras"> 
+                        <img src="{% static 'storemusic_core/img/comprasicon.png' %}" alt="compras" class="comprasicon">
+                    </a>
+                    <a href="{% url 'login' %}" class="iconlogin">
+                        <img src="{% static 'storemusic_core/img/login.png' %}" alt="login" class="loginicon">
+                    </a>
+                    <a href="#" class="icongps">
+                        <img src="{% static 'storemusic_core/img/gps.png' %}" alt="gps" class="gpsicon">
+                    </a>
+                    <a href="#" class="tel">T. (81) 8384 8586</a>
+                </nav>
+                
+            </div>
+        </div>
+        <div class="contenedor_div">
+            <nav id="nav_menu">
+                <ul>
+                    <li>
+                        <a href="{% url 'guitars' %}" class="guitarra" >GUITARRAS</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'bass' %}">BAJOS</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'keyboards' %}">TECLADOS</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'drums' %}">BATERIAS</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'accordion' %}">ACORDEONES</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <div class="contenido">
+        <br>
+        {% block contenido %}
+        
+        {% endblock %}
+    </div>
+    
+    
+    <footer>
+        <div class="footer-container">
+            <div class="container-section">
+                <div>
+                        <a href="{% url 'home' %}">
+                            <img src="{% static 'storemusic_core/img/logoicon.png' %}" alt="logoicon" class="logoicon">
+                        </a>
+                        <ul>
+                            <a href="https://www.facebook.com/">
+                                <img src="{% static 'storemusic_core/img/fbicon.png' %}" alt="fbicon" class="fbicon">
+                            </a>
+                            <a href="https://twitter.com/?lang=es">
+                                <img src="{% static 'storemusic_core/img/ticon.png' %}" alt="twitter" class="ticon">
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="{% static 'storemusic_core/img/instaicon.png' %}" alt="instagram" class="instaicon">
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img src="{% static 'storemusic_core/img/yticon.png' %}" alt="youtube" class="yticon">
+                            </a>
+                        </ul>
+                        <p>
+                            <a href="#">Sobre nosotros</a>
+                            <a href="#">Terminos y Condiciones</a>
+                            <a href="#">Informacion de Compra en Linea</a>
+                            <a href="#">Ventas por Internet</a>
+                            <a href="#">Ventasmusicstore@musicstore.com</a>
+                        </p>
+                </div>
+                <div class="container-compras">
+                    <p class="compra">Compra facil</p>
+                    <p class="pagos">FORMAS DE PAGO</p>
+                    <p class="formas-pago">
+                        Tarjetas de credito o debito
+                        <br>
+                        Depositos bancarios
+                        <br>
+                        Paypal
+                        <br>
+                        <br>
+                        Mercancia asegurada
+                        <br>
+                        Envio rapido a todo mexico
+                        <br>
+                        Garantia y factura
+                    </p>
+                </div>
+                <div class="container-suc">
+                    <p class="visit">
+                        <a href="#">Visitanos</a>
+                    </p>
+                    <div class="sucursales">
+                        <div class="valle">
+                            <p class="titulo-valle">Valle</p>
+                            <address>
+                                <a href="https://goo.gl/maps/vU3GNS6tyNK2" target="_blank">Rio Mississippi #101-B. Col Valle, San Pedro Garza García NL.</a>
+                            </address>    
+                            <p>Tel: (81) 8283 8485</p>
+                        </div>
+                        <div class="centro">
+                            <p class="titulo-centro">CENTRO</p>
+                            <address>
+                                <a href="https://goo.gl/maps/CGpRA6uaZCv" target="_blank">Av. Madero 810, Colonia Centro, Monterrey, Nuevo León</a>
+                            </address>
+                            <p>
+                                <a href="#">Tel: (81) 8283 8485</a>
+                            </p>
+                        </div>
+                    </div>
+                    </div
+                    
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                mode: "fade",
+                auto: true,
+                pause: 2000
+            });
+        });
+        </script>
+        <script src="{% static 'storemusic_core/js/menu.js' %}"></script>
+</body>
+</html>

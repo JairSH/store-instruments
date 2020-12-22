@@ -1,0 +1,76 @@
+{% extends 'storemusic_core/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+<section class="categories">
+    <div class="container">
+        <div class="categories-header">
+            <div class="content-categories">
+                <h2>comprar por categorias</h2>
+            </div>
+        </div>
+        <div class="modulares">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="module-area">
+                        <a href="{%url 'guitars' %}" class="guitar-categories" >
+                            <div style="background-image:url('{% static "storemusic_core/img/guitars/guitarras-categorias.jpg" %}');" class="module"></div>
+                        
+                            <div class="module-text">
+                                <p class="title">Guitarras</p>
+                                <p class="small-title">2 subcategorias</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="module-area">
+                        <a href="{% url 'bass' %}" class="bass-categories" >
+                            <div style="background-image:url('{% static "storemusic_core/img/guitars/guitarras-categorias.jpg" %}');" class="module"></div>
+                            <div class="module-text">
+                                <p class="title">Bajos</p>
+                                <p class="small-title">2 subcategorias</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="module-area">
+                        <a href="{% url 'keyboards' %}" class="keyboards-categories">
+                            <div style="background-image:url('{% static "storemusic_core/img/keyboards/teclado-categories.jpg" %}');" class="module"></div>
+                            <div class="module-text">
+                                <p class="title">teclados</p>
+                                <p class="small-title">2 subcategorias</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="module-area">
+                        <a href="{% url 'drums' %}" class="drums-categories">
+                            <div style="background-image:url('{% static "storemusic_core/img/drums/baterias-categories.jpg" %}');" class="module"></div>
+                            <div class="module-text">
+                                <p class="title">baterias</p>
+                                <p class="small-title">2 subcategorias</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="module-area">
+                        <a href="{% url 'accordion' %}" class="accordion-categories">
+                            <div style="background-image:url('{% static "storemusic_core/img/guitars/guitarras-categorias.jpg" %}');" class="module"></div>
+                        
+                            <div class="module-text">
+                                <p class="title">Acordeones</p>
+                                <p class="small-title">1 subcategorias</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock%}

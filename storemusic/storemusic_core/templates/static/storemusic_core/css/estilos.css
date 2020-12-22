@@ -1,0 +1,976 @@
+
+body {
+    background-color: #EDF2F7 ;
+}
+
+header {
+    width: 100%;
+    height: auto;    
+    background-color: #fff;  
+}
+
+.contenedor {
+    display: flex;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 70px;
+    font-weight: 500;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+.contenedor .div_contenedor_logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    width: 51%;
+    height: 70px;
+    margin: 0%;
+}
+
+.contenedor .div_contenedor_logo > nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+    color: #222831;
+   
+}
+
+.contenedor .div_contenedor_logo .contenedor_logo_nav >ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 70px;
+    margin: 0 ;
+    
+}
+
+
+.contenedor .div_contenedor_logo > nav >ul > li{
+    display: flex;
+    display: inline;
+    margin-right: 50px;
+    font-size: 12px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.contenedor .div_contenedor_logo > nav >ul > li > a {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #4d4f6c;
+    
+}
+
+
+
+
+
+.contenedor_div {
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: #20212c;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.contenedor_div > nav { 
+    display: flex;
+    align-items: center;
+
+}
+.contenedor_div > nav > ul {
+    margin: 0 0;
+    display: flex;
+    padding-left: 0;
+}
+
+.contenedor_div > nav > ul > li {
+    display: inline;
+    margin-right: 100px;
+}
+
+.contenedor_div >  nav  > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_div >  nav  > ul > li > .guitarra {
+    margin-left: 30px ;
+}
+
+.contenedor .contenedor_logo .contenedor_icon{
+    display: none;
+}
+.contenedor_icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 70px;
+}
+
+.contenedor_icon > nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.contenedor_icon > nav > a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.categoria {
+    margin-left: 30px;
+}
+
+.comprasicon {
+    margin-left: 10px;
+    width: 30px;
+}
+
+.loginicon {
+    width: 45px;
+    height: 37px;
+    margin-left: 10px;
+}
+
+.gpsicon {
+    width: 31px;
+    margin-left: 10px;
+    
+}
+
+.tel {
+    margin-right: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.contenido .guitarra {
+    width: 100%;
+}
+
+
+.guitarbody {
+    width: 100%;
+    height: 400px;
+}
+
+.homebajo {
+    width: 100%;
+    height: 400px;
+}
+
+.hometeclado {
+    width: 100%;
+    height: 400px;
+}
+
+.homebateria {
+    width: 100%;
+    height: 400px;
+}
+
+.homeacordeon {
+    width: 100%;
+    height: 400px;
+}
+
+/*contenido-guitarras*/
+.contentcontainer{
+    height: 1000px;
+    
+}
+.contentcontainer .products{
+    width: 1250px;
+    height: 1000px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.contentcontainer .products .containerproducts {
+    width: 1250px;
+    height: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contentcontainer .products .containerproducts .products-header > h2{
+    margin: 0 0;
+    height: 50px;
+}
+
+.contentcontainer .products .containerproducts .row {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+.contentcontainer .products .containerproducts .row .product-sidebar {
+    height: 700px;
+    width: 19%;
+    border: 1px solid #E4E5EA;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+}
+
+.contentcontainer .products .containerproducts .row .product-box-row{
+    max-width: 1000px;
+    margin-top: 40px;
+    height: 100%;
+    display: inline-block;
+}
+
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box{
+    width: 230px;
+    height: 350px;
+    margin: 25px 9px 38px;
+    display: inline-block;
+
+}
+
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box > a{
+    width: 214px;
+    height: 324px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #4d4f6c;
+    
+}
+
+
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box > a > img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box .product-code{
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box .product-marca{
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box .product-model{
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.contentcontainer .products .containerproducts .row .product-box-row .productcontent .product-box .price{
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    background-color: white;
+}
+/*Footer*/
+
+footer {
+    background-color: #20212c;
+    padding: 77px 0 63px 0;
+    height: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    
+}
+
+.logoicon{
+    width: 100px;
+    height: 50px;
+}
+
+.footer-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    justify-content: center;
+    
+}
+
+
+.footer-container .container-section {
+    height: 300px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    
+}
+
+
+
+.footer-container .container-section > div {
+    height: 300px;
+    width: 252px;
+}
+
+.footer-container .container-section > div > a {
+    height: 300px;
+    width: 40px;
+}
+
+.footer-container .container-section > div > ul {
+    padding-left: 0;
+    margin-block-end: 0;
+    text-decoration: none;
+}
+
+.footer-container .container-section > div > ul > a{
+   
+    text-decoration: none;
+}
+
+.footer-container .container-section > div > p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.footer-container .container-section > div > p > a {
+    padding: 0;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.footer-container .container-section .container-compras {
+    height: 300px;
+    width: 252px;
+}
+
+
+.fbicon {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.ticon {
+    width: 35px;
+    height: 35px;
+}
+
+.instaicon {
+    width: 35px;
+    height: 35px;
+}
+
+.yticon {
+    width: 35px;
+    height: 35px;
+
+}
+
+.footer-container .container-section .container-compras .compra {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px ;
+    color: white;
+}
+
+.pagos {
+    font-size: 16px ;
+    color: #b9bac8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formas-pago {
+    font-size: 14px ;
+    color: #9595A4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .container-section .container-suc {
+    width: 400px;
+    height: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-container .container-section .container-suc .visit {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .container-section .container-suc .sucursales {
+    width: 390px;
+    height: 240px;
+    margin: 0;
+    display: flex;
+}
+
+
+.footer-container .container-section .container-suc .sucursales .valle {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    color: #9595A4;
+}
+
+.footer-container .container-section .container-suc .sucursales .centro {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;   
+}
+.centro .titulo-centro {
+    font-size: 14px;
+    color: white;
+    
+}
+
+.footer-container .container-section .container-suc .sucursales .centro > address {
+    height: 56px;
+}
+
+.centro > address > a{
+    color: #9595A4;
+    height: 54px;
+    text-decoration: none;
+}
+
+.centro > p > a {
+    color: #9595A4;
+    text-decoration: none;
+}
+
+.valle > address > a{
+    color: #9595A4;
+    font-size: 14px;
+    text-decoration: none;
+}
+.valle .titulo-valle {
+    color: #b9bac8;   
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.valle > p{
+    font-size: 12px;
+} 
+
+.centro > p {
+    font-size: 12px;
+}
+
+.centro .titulo-centro {
+    color: #b9bac8;
+}
+.menu {
+    width: 50px;
+    
+    left: 10px;
+    top: 10px;
+    display: none;
+}
+
+.contenedor_icon-480{
+    display: none;
+}
+
+.categories{
+    width: 1320px;
+    height: 1300px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.categories .container{
+    width: 940px;
+    height: 1300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.categories .container .categories-header{
+    width: 940px;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+.categories .container .categories-header .content-categories > h2{
+    margin: 0;
+    height: 62px;
+}
+
+.categories .modulares {
+    width: 1000px;
+    height: 1000px;
+}
+
+.categories .modulares .row{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories .modulares .row .col-sm-8 {
+    width: 666px;
+    height: 375px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.categories .modulares .row .col-sm-4{
+    height: 375px;
+    width: 300px;
+    margin-left: 30px;
+}
+.categories .modulares .row .col-sm-4 .module-area{
+    height: 375px;
+    width: 300px;
+    margin-top: 30px;
+}
+/*bajos*/
+.categories .modulares .row .col-sm-4 .module-area .bass-categories{
+    height: 350px;
+    width: 300px;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .bass-categories .module-text{
+    position: absolute;
+    bottom: -250px;
+    text-align: center;
+    left: 25%;
+    transform: translateX(-50px);
+    color: white;
+    -webkit-text-stroke-width: thin;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .bass-categories .module{
+    height: 345px;
+    background-repeat: no-repeat;
+}
+.categories .modulares .row .col-sm-8 .module-area{
+    width: 666px;
+    height: 345px;
+    margin-top: 30px;
+}
+/*teclados*/
+.categories .modulares .row .col-sm-4 .module-area .keyboards-categories{
+    height: 350px;
+    width: 300px;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .keyboards-categories .module{
+    height: 345px;
+    background-repeat: no-repeat;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .keyboards-categories .module-text{
+    position: absolute;
+    bottom: -250px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50px);
+    color: white;
+    -webkit-text-stroke-width: thin;
+    
+}
+/*Baterias*/
+.categories .modulares .row .col-sm-4 .module-area .drums-categories{
+    height: 350px;
+    width: 300px;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .drums-categories .module{
+    height: 345px;
+    background-repeat: no-repeat;
+    
+}
+.categories .modulares .row .col-sm-4 .module-area .drums-categories .module-text{
+    position: absolute;
+    bottom: -250px;
+    text-align: center;
+    left: 75%;
+    transform: translateX(-50px);
+    color: white;
+    -webkit-text-stroke-width: thin;
+    
+}
+/*guitarras*/
+.categories .modulares .row .col-sm-8 .module-area .guitar-categories{
+    width: 616px;
+    height: 345px;
+}
+
+
+.categories .modulares .row .col-sm-8 .module-area .guitar-categories .module-text{
+    position: absolute;
+    bottom: 250px;
+    text-align: center;
+    left: 35%;
+    transform: translateX(-50px);
+    color: white;
+    -webkit-text-stroke-width: thin;
+}
+
+/*Acordeones*/
+.categories .modulares .row .col-sm-8 .module-area .accordion-categories{
+    width: 616px;
+    height: 345px;
+}
+
+.categories .modulares .row .col-sm-8 .module-area .accordion-categories .module{
+    height: 345px;
+    background-repeat: no-repeat;
+    
+}
+.categories .modulares .row .col-sm-8 .module-area .accordion-categories .module-text{
+    position: absolute;
+    bottom: -500px;
+    text-align: center;
+    left: 35%;
+    transform: translateX(-50px);
+    color: white;
+    -webkit-text-stroke-width: thin;
+}
+
+.title{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin: 0px;
+}
+.color-white{
+    color: white;
+}
+
+.small-title{
+    font-size: 20px;
+    letter-spacing: 1.0px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.categories .modulares .row .col-sm-8 .module-area .guitar-categories .module{
+    width: 100%;
+    height: 345px;
+    background-color: transparent;
+}
+/*MEDIA QUERIES*/
+
+/*TABLET*/
+@media (max-width:780px){
+    
+    header {
+        background-color: #20212c;
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+        
+    }
+    .contenedor {
+        display: block;
+        height: 144px;
+        width: 100%;
+    }
+    header > .contenedor .contenedor_logo {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .contenedor .contenedor_logo .logo {
+        width: 200px;
+        margin-left: 70px;
+    
+    }
+    
+    .contenedor .contenedor_logo .menu {
+        display:inline
+    }
+    
+    .contenedor .div_contenedor_logo {
+        font-weight: 500;
+        width: 100%;
+        height: 80px;
+        
+    }
+    
+    .contenedor .div_contenedor_logo .contenedor_logo_nav {
+        width: 100%;
+        justify-content: center;
+        margin-right: 20px;
+        height: 80px;
+        
+    }
+    .contenedor .div_contenedor_logo .contenedor_logo_nav > ul {
+        height: 100%;
+        display: inline;
+        width: 141px;
+    }
+    .contenedor .div_contenedor_logo .contenedor_logo_nav > ul > li{
+        color: white;
+    }
+
+    .contenedor .div_contenedor_logo .contenedor_logo_nav > ul > li > a{
+        border: white 1px solid;
+        
+    }
+
+    header > div > div > nav {
+        height: auto;
+    } 
+    
+    header > div {
+        height: 100%;
+    }
+
+    header > div > div {
+        height: auto;
+    }
+
+    header > div > div > nav > ul{
+        height: auto;
+    }
+    
+    .contenedor .div_contenedor_logo > nav >ul > li{
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .contenedor .div_contenedor_logo > nav >ul > li > a{
+        margin-left: 0;
+        color: white;
+    }
+    
+
+    .contenedor .contenedor_icon {
+        display: none;
+    }
+
+    .contenedor .contenedor_logo .contenedor_icon {
+        width: 20%;
+        height: 70px;
+        display: inline;
+    }
+
+    .menu{
+        width: 40px;
+        height: 40px;
+    }
+    
+
+    
+    
+    header > div > div > div > nav{
+        height: 70px;
+        
+    }
+
+    header > .contenedor_div {
+        background-color: #20212c;
+        height: 105px;
+        width: 100%;
+        margin-top: 10px;
+        
+       
+    }
+    header > .contenedor_div > nav > ul {
+        display: block;
+        width: 141px;
+    
+        
+    }
+
+    header > .contenedor_div > nav {
+        display: block;
+        height: 105px;   
+        margin-right: 20px;
+    }
+    header > .contenedor_div > nav > ul > li{
+        margin: 0;
+        display: block;
+        border: white 1px solid;
+    }
+    header > .contenedor_div > nav > ul > li .guitarra{
+        margin-left: 0;
+    }
+
+    /*footer*/
+    footer {
+        height: 400px;
+
+    }
+    .footer-container{
+        margin: 0 0;
+        padding: 0 0;
+        height: 100%;
+    }
+    .footer-container .container-section{
+        margin: 0 0;
+        padding: 0 0;
+        margin-left: 200px;
+        
+    }
+    .footer-container .container-section .container-suc{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 250px;
+    }
+
+    
+
+}
+
+
+/*SMARTPHONE*/
+
+@media (max-width:480px){
+    header {
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+    }
+    .contenedor{
+        width: 100%;
+        height: 115px;
+    }
+    .contenedor .contenedor_logo{
+        width: 100%;
+    }
+    .contenedor_icon-480{
+        display: inline;
+    }
+
+    .contenedor .contenedor_logo .contenedor_icon {
+        display: none;
+    }
+    .contenedor .contenedor_logo .logo{
+        margin: 0 0;
+        margin-left: 120px;
+    }
+    
+    .contenedor .contenedor_logo .menu{
+        position: absolute;
+        margin-top: 0px;
+        width: 50px;
+    }
+
+    .contenedor .contenedor_icon-480{
+        width: 90%;
+        display: flex;
+        margin-bottom: 8px;
+        justify-content: flex-end;
+    }
+
+    header > .contenedor_div{
+        height: 195px;
+        margin-top: 0;
+    }
+    .contenedor_div > nav{
+        margin-top:90px;
+        height: 195px;
+    }
+
+    .contenedor .div_contenedor_logo .contenedor_logo_nav{
+        height: 90px;
+    }
+
+    
+    /*Footer*/
+    footer {
+        height: 1000px;
+    }
+
+    .footer-container{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .footer-container .container-section{
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-container .container-section > div {
+        width: 100%;
+    }
+    
+    .footer-container .container-section > div > ul {
+        display: flex;
+        width: 100%;
+        text-decoration: none;
+        justify-content: center;
+    }
+    .footer-container .container-section > div > p > a {
+        justify-content: center;
+    }
+
+    .footer-container .container-section .container-compras {
+        width: 100%;
+    }
+    .footer-container .container-section .container-compras > p {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container .container-section .container-compras .formas-pago{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container .container-section .container-suc .sucursales {
+        display: block;
+    }
+    .footer-container .container-section .container-suc .sucursales .valle{
+        width: 100%;
+        display: block;
+    }
+    .footer-container .container-section .container-suc .sucursales .valle .titulo-valle {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container .container-section .container-suc .sucursales .valle > p {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container .container-section .container-suc .sucursales .centro{
+        width: 100%;
+    }
+    .footer-container .container-section .container-suc .sucursales .centro .titulo-centro{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container .container-section .container-suc .sucursales .centro > p{
+        display: flex;
+        justify-content: center;
+    }
+}
