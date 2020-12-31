@@ -41,3 +41,6 @@ def accordion(request):
 
 def categories(request):
     return render(request,'storemusic_core/categories.html')
+    
+def ready_to_pick(request):
+    return render(request,'storemusic_core/ready_to_pick.html')
