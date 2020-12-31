@@ -1,2 +1,2 @@
-# cine
-project cine
+# store-instruments
+store instruments
